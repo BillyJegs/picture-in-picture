@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 37, 37);
+    min-height: 100vh;
+}
+
+.button-container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: inset 0 20px 40px -18px rgba(255, 255, 255, 0.6);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 80px;
+    font-family: kufam, sans-serif;
+    font-size: 28px;
+    color: black;
+    text-shadow: 0 2px 4px whitesmoke;
+    background: linear-gradient(to top, grey, rgb(32, 32, 32));
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: inset 0 20px 40px -18px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, grey, gray);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
